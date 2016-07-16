@@ -1,0 +1,15 @@
+html, body{ height: 100%; }
+
+.body{
+	text-align: center;
+	font-family: Arial;
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.header{
+	background-color: #f50;
+	height: 80px;
+	text-align: center;
+}
