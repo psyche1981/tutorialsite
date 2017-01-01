@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tutorials',
     'polls',
+    'tnb_music',
+    'tnb',
+    'sentdex', 
 ]
 
 MIDDLEWARE_CLASSES = [

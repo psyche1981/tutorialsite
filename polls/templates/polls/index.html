@@ -1,6 +1,8 @@
 {% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'tutorials/css/bootstrap.min.css' %}" />
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
-
+{% include "tutorials/includes/home_button.html" %}
+<h1>Django Tutorial Polls App</h1>
 {% if latest_question_list %}
 
 <ul>

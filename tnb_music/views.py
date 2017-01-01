@@ -2,5 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-	return render(request, 'tutorials/index.html')
-
+	return HttpResponse("<h2>Music app homepage</h2>")
