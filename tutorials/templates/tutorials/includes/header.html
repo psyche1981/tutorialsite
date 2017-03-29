@@ -8,13 +8,13 @@
 	{% load staticfiles %}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel='stylesheet' href="{% static 'tutorials/css/bootstrap.min.css' %}" type='text/css'/>
-	<link rel='stylesheet' href="{% static 'tutorials/css/tnb_app.css' %}" type='text/css'/>
 </head>
 
 <body>
-<div>
+	<div class='main_wrapper'>
+	<div class='header'><b>Tutorials Index</b></div>
 	{% block content %}
 	{% endblock %}
-</div>
+	</div>
 </body>
 </html>

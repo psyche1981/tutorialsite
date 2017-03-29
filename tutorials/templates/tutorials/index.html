@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Tutorials Home</title>
-	<meta charset="utf-8"/>
-	{% load staticfiles %}
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel='stylesheet' href="{% static 'tutorials/css/bootstrap.min.css' %}" type='text/css'/>
-	<link rel='stylesheet' href="{% static 'tutorials/css/app.css' %}" type='text/css'/>
-</head>
-
+{% extends "tutorials/includes/header.html" %}
 <body>
-	<div class='main_wrapper'>
-	<div class='header'><b>Tutorials Index</b></div>
+{% block content %}
 	<div class='list_div'> 
 		<ul>
-			<a href='/polls/'><li>Django Tuts polls app</li></a>
+			<a href='/polls/'><li>Django Docs Tutorial</li></a>
 			<a href='/sentdex/'><li>SentDex Tutorial</li></a>
 			<a href='/tnb/'><li>The New Boston Tutorial</li></a>
 		</ul>
 	</div>
-	</div>
+{% endblock %}
 </body>
 </html>
